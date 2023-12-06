@@ -193,3 +193,17 @@ body{
     justify-content: center;
     gap: 20px;
 }
+
+
+.content{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.content-li{
+    margin-bottom: 1px solid #cccccc;
+    padding: 1Opx;
+    cursor: pointer;
+}
+

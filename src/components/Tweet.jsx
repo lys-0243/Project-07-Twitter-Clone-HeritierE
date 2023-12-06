@@ -57,20 +57,7 @@ const tweets = [
         valueFavorite: "3.3M",
         valuereReolies: "",
     },
-    {
-        texte: "hello literally everyone",
-        date: "Oct 4",
-        author: "Twitter",
-        pseudo: "@Twitter",
-        badge: "src/images/Vector.svg",
-        avatar: "src/images/image2.svg",
-        tweetImage: "src/images/tweet-image.png",
-        favorite: "180",
-        valueReply: "118.7K",
-        valueRetweet: "785.4K",
-        valueFavorite: "3.3M",
-        valuereReolies: "",
-    },
+   
 ];
 
 const TweetImage = ({ source }) => {

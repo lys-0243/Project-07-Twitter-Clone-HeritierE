@@ -6,17 +6,25 @@ import Tweets from '../components/Tweets';
 
 
 
+
+
 function Home() {
   return (
-    <main className="timeline">
+    <>
+    
+  
+    
+<main className="timeline">
       <Header/>
       <TweetEditor/>
       <Tweets/>
-
-      
-      
       
     </main>
+   
+
+    </>
+    
+    
   );
 }
 
