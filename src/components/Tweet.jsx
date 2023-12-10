@@ -30,7 +30,7 @@ const tweets = [
         valuereReolies: "",
     },
     {
-        texte: "BIG NEWS lol jk still Twitter",
+        texte: "BIG NEWS lol edems still Twitter",
         date: "Oct 29",
         author: "Twitter",
         pseudo: "@Twitter",

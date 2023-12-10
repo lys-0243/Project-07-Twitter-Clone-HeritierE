@@ -1,4 +1,4 @@
-import{NavLink} from 'react-router-dom'
+
 import Twitter from '../images/Twitter.svg'
 import Home from '../images/Home-Fill.svg'
 import Explore from '../images/Explore.svg'
@@ -7,92 +7,111 @@ import Bookmarks from '../images/Bookmarks.svg'
 import Lists from '../images/Lists.svg'
 import Profile from '../images/Profile.svg'
 import More from '../images/More.svg'
+import profiles from '../images/profile-photo.png'
+
+
 
 const Sidebar = () => {
   return (
     <>
  <div className='sidebar'>
-   <ul className='content'>
+    
+ <ul >
 
-    <div >
-    <li>
-    <img src={Twitter} alt="" />
+<div >
+<li className='content'>
+<img  src={Twitter} alt="" />
 </li>
 
+</div>
+
+
+<li className='content'>
+<img src={Home} alt="" />
+<span> Home</span>
+</li>
+
+
+
+
+
+<li className= 'content'>
+<img src={Explore} alt=" " />
+<span className='ver'>Explore </span>
+</li>
+
+
+
+
+
+<li className='content'>
+    <img src={Notifications} alt=" " />
+    <span>Notifications</span>
+</li>
+
+
+
+
+<li className='content'>
+    <img src={Bookmarks} alt="" />
+    <span>BooksMarks </span>
+</li>
+
+
+
+
+
+<li className='content'>
+    <img src={Lists} alt="" />
+    <span>Lists</span>
+
+</li>
+
+
+
+<li className='content'>
+
+    <img src={Profile} alt="" />
+    <span>Profile</span>
+   
+</li>
+
+
+
+
+
+<li className='content'>
+    <img src={More} alt="" />
+    <span>More</span>
+   
+    
+</li>
+
+
+</ul>
+<div>
+<button className='btn'>tweet</button>
+</div>
+
+
+
+<div className='profil'>
+    <img src={profiles} alt="" />
+    <span className='tweet-title-author'> pioche</span>
+<span className='tweet-title-details'>@pioche</span>
     </div>
 
 
-<li className='content'>
-    <img src={Home} alt="" />
-  <span> Home</span>
-  
-</li>
 
 
 
-
-
-<li className='content'>
-    <img src={Explore} alt=" " />
-    <span>Explore </span>
-</li>
-
-
-
-
-  
-  <li className='content'>
-        <img src={Notifications} alt=" " />
-        <span>Notifications</span>
-    </li>
-
-  
-
-  
-   <li className='content'>
-        <img src={Bookmarks} alt="" />
-        <span>BooksMarks </span>
-    </li>
-
-   
-
-
-    
-    <li className='content'>
-        <img src={Lists} alt="" />
-        <span>Lists</span>
-    
-    </li>
-    
-    
-    
-    <li className='content'>
-    
-        <img src={Profile} alt="" />
-        <span>Profile</span>
-       
-    </li>
-
-    
-    
-
-
-<li className='content'>
-        <img src={More} alt="" />
-        <span>More</span>
-       
-        
-    </li>
-
-    
-    </ul>
-
-    <button className='button'>tweet</button>
     </div>
     </>
     
     
   )
 }
+
+
 
 export default Sidebar
