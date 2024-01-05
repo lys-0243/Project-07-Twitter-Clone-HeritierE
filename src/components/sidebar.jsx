@@ -7,7 +7,12 @@ import Bookmarks from '../images/Bookmarks.svg'
 import Lists from '../images/Lists.svg'
 import Profile from '../images/Profile.svg'
 import More from '../images/More.svg'
+import More2 from '../images/More2.svg'
 import profiles from '../images/profile-photo.png'
+
+
+
+
 
 
 
@@ -97,7 +102,12 @@ const Sidebar = () => {
 
 <div className='profil'>
     <img src={profiles} alt="" />
+
+    <div className='icon'>
     <span className='tweet-title-author'> pioche</span>
+    <img src={More2} alt="" />
+    </div>
+    
 <span className='tweet-title-details'>@pioche</span>
     </div>
 

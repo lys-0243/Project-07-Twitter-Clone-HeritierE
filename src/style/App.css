@@ -200,9 +200,11 @@ flex-direction: column;
  padding-left: 15px;
 padding-right: 15px; 
 padding-top: 15px; 
-height: 10vh;
+/* height: 100%; */
 width: 40vh; 
 justify-content: left; 
+/* position : sticky;
+top :0; */
 
 }
 
@@ -218,15 +220,13 @@ justify-content: left;
 }
 
 .profil {
-    
-        position: fixe;
-     display: flex;
-     flex-direction: row;
-        margin-top: 500px;
-        justify-content:center;
-        align-items: center;
-        padding: 7 px 10px;
-        
+        margin-top: 800px; 
+      }
+
+      .icon{
+display: flex;
+gap: 150px;
+
       }
 
   .search-input{
@@ -242,12 +242,13 @@ justify-content: left;
 
 
   .Trends {
-border-radius: 10px;
-background-color: #6E767D;
+border-radius: 15px;
+background-color: #16181c;
 padding: 10px;
 margin: 20px;
 display: flex;
 flex-direction: column;
+gap: 1em;
   }
 
   .Trend{
@@ -270,15 +271,42 @@ border-radius: 10px;
         background-color: #1D9BF0;
         color: white;
         font-size: 1rem;
-        margin-top:70px;
+        margin-top:80px;
         margin: 10px;
         padding-left: 70px;
         padding-right:70px ;
-        
-        
-
   }
-  
+
+
+  .buttons {
+    text-transform: capitalize;
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: black;
+    font-size: 1rem;
+}
+
+.search{
+    display: flex;
+    border-radius: 40px;
+    margin-top: 5px;
+    gap: 10px;
+    background-color: #16181c;
+    padding: 10px 15px;
+}
+.search  input{
+    border: none;
+    background-color: #16181c;
+    border-radius: 20px;
+    padding: 6px 10px;
+    width: 100%;
+    outline: none;
+
+}
+
+
 
 
 
