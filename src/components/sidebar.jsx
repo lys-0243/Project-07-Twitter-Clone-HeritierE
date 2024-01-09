@@ -10,69 +10,41 @@ import More from '../images/More.svg'
 import More2 from '../images/More2.svg'
 import profiles from '../images/profile-photo.png'
 
-
-
-
-
-
-
 const Sidebar = () => {
   return (
     <>
- <div className='sidebar'>
-    
- <ul >
-
-<div >
-<li className='content'>
-<img  src={Twitter} alt="" />
-</li>
-
-</div>
-
-
+      <div className='sidebar'>
+        <ul>
+          <div>
+            <li className='content'>
+              <img  src={Twitter} alt="" />
+            </li>
+          </div>
 <li className='content'>
 <img src={Home} alt="" />
 <span> Home</span>
 </li>
-
-
-
-
 
 <li className= 'content'>
 <img src={Explore} alt=" " />
 <span className='ver'>Explore </span>
 </li>
 
-
-
-
-
 <li className='content'>
     <img src={Notifications} alt=" " />
     <span>Notifications</span>
 </li>
-
-
-
 
 <li className='content'>
     <img src={Bookmarks} alt="" />
     <span>BooksMarks </span>
 </li>
 
-
-
-
-
 <li className='content'>
     <img src={Lists} alt="" />
     <span>Lists</span>
 
 </li>
-
-
 
 <li className='content'>
 
@@ -81,15 +53,9 @@ const Sidebar = () => {
    
 </li>
 
-
-
-
-
 <li className='content'>
     <img src={More} alt="" />
     <span>More</span>
-   
-    
 </li>
 
 
@@ -97,8 +63,6 @@ const Sidebar = () => {
 <div>
 <button className='btn'>tweet</button>
 </div>
-
-
 
 <div className='profil'>
     <img src={profiles} alt="" />
@@ -111,17 +75,10 @@ const Sidebar = () => {
 <span className='tweet-title-details'>@pioche</span>
     </div>
 
-
-
-
-
     </div>
     </>
     
     
   )
 }
-
-
-
 export default Sidebar
